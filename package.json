@@ -1,6 +1,11 @@
 {
   "name": "json-comment-colorizer",
   "displayName": "json-comment-colorizer",
+  "publisher": "zjavier94",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lacadaemon94/json-comment-colorizer"
+  },
   "description": "A simple extension to color the property names based on the comments structure",
   "version": "0.0.1",
   "engines": {
@@ -14,8 +19,8 @@
   "contributes": {
     "commands": [
       {
-        "command": "json-comment-colorizer.colorizarJson",
-        "title": "Colorizar JSON"
+        "command": "json-comment-colorizer.colorizeJSON",
+        "title": "Colorize JSON"
       }
     ]
   },
